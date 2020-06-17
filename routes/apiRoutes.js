@@ -15,7 +15,7 @@ module.exports = function(app) {
         notes.push(newNote);
         fs.writeFile(db,JSON.stringify(notes), function(err){
             if (err) throw err;
-            console.log("Success");
+            console.log("Note has been added");
         });
         console.log(newNote);
         res.json(newNote)
@@ -27,7 +27,7 @@ module.exports = function(app) {
         console.log(newNotes);
         fs.writeFile(db,JSON.stringify(newNotes), function(err){
             if (err) throw err;
-            console.log("Success");
+            console.log("Note is deleted");
         });
         res.json(newNotes)
     });
