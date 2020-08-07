@@ -3,9 +3,6 @@
 ## Project Description
 For this homework activiy, we are to create an application that can be used to write, save and delete notes. The application will use an express backend and save and retrieve note data from a JSON file.
 
-## Experience
-Overall, this homework was hard; especially in the joining. In order to work through a lot of the issues, I worked the code in a practice folder until they worked before committing to Github. Thus, the number of commits are exceptionally smaller compared to previous homeworks.
-
 ## Acceptance Criteria
 * Application should allow users to create and save notes.
 * Application should allow users to view previously saved notes.
